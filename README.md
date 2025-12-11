@@ -1,4 +1,4 @@
-# Mini Workflow Engine (AI Engineering - Assignment)
+# Mini Workflow Engine (AI Engineering)
 
 This is a minimal workflow/agent engine with FastAPI endpoints.
 
