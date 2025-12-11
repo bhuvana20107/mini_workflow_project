@@ -1,0 +1,29 @@
+﻿{
+    "run_id":  "07d10d78-0033-475d-a75d-86477ef4a0a1",
+    "state":  {
+                  "code":  "def a():\n  pass\n# TODO: finish\nprint(2)",
+                  "threshold":  3,
+                  "functions":  [
+                                    {
+                                        "name":  "a",
+                                        "length":  4
+                                    }
+                                ],
+                  "quality_score":  3,
+                  "complexity":  0,
+                  "issues":  2,
+                  "suggestions":  [
+                                      "Fix TODOs and remove debugging prints."
+                                  ]
+              },
+    "log":  [
+                "Start node: extract",
+                "End node: extract -\u003e next: complexity",
+                "Start node: complexity",
+                "End node: complexity -\u003e next: issues",
+                "Start node: issues",
+                "End node: issues -\u003e next: suggest",
+                "Start node: suggest",
+                "End node: suggest -\u003e next: None"
+            ]
+}
